@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+	<head>
+		<body>
+			<title>assignmentone</title>
+		</body>
+			<tbody>
+			<div>
+				<tr>
+					<td>First Name</td>
+					<td><input type = 'text'
+							   name = 'fName'
+							   id   = 'First Name' placeholder = 'enter first name'><br>
+					</td>
+				</tr>	
+			</div>
+			<div>
+				<tr>
+					<td>Last Name</td>
+					<td><input type = 'text'
+							   name = 'lname'
+							   id   = 'last name' placeholder = 'enter last name'> <br>
+					</td>			
+			</tr>
+			</div>
+			<div> 
+			   <tr>
+				  <td>email address</td>
+				  <td><input type = 'text'
+							 name = 'address'
+							 id   = 'email address' placeholder = 'enter valid email address'> <br>
+				  </td>
+			   </tr>
+			</div>
+			<div>
+				<tr>
+					<td>Gender</td>
+					<td><input type ='radio'
+							   name = 'gender'
+							   value = 'male'> Male
+					    <input type = 'radio'
+							   name = 'gender'
+							   value = 'female' > Female
+						<input type = 'radio'
+							   name = 'gender'
+							   value = 'other' > Don't want to disclose
+					</td>
+					
+				</tr>
+			</div>
+			<div>
+				<tr>
+					<td>country</td>
+					<td><select name 'country'>
+					
+					<option value  = ></option>
+					<option value ='usa'>USA</option>
+					<option value = 'cn'>China</option>
+					<option value = 'in'>India</option>
+					<option value = 'jp'>Japan</option>
+					<option value = 'as'>American Samoa</option>
+					<option value = 'np'>Nepal</option>
+				
+					
+					
+				</select>
+				
+				</tr>			
+			</div>
+			<dir>
+			   <tr>
+			   <td>  Class taken</td> <br>
+			   <td><input type = 'checkbox'
+						  name = 'core java'
+						  value = '1' > Core Java <br>
+					<input type = 'checkbox'
+							name = 'advance java'
+							value = '2' > Advance Java <br>
+					<input type = 'checkbox'
+					       name = 'ui'
+						   value = '3' > UI <br>
+					<input type = 'checkbox'
+						   name = 'sql'
+						   value = '4' > SQL <br>
+					<input type = 'checkbox'
+							name = 'dot net'
+							value = '5' > Dot Net <br>
+				</td>
+			</tr>			   
+						  
+			</div>
+			<input type = 'submit' value =  'Submit'>
+				
+				
+			</tbody>
+			
+	
+	</head>
+
+
+
+
+
+
+</html>
